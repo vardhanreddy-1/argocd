@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-js
-        image: obusorezekiel/react-js
+        image: obusorezekiel/react-js:v3
         resources:
           limits:
             memory: "356Mi"
