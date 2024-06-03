@@ -17,10 +17,10 @@ spec:
         image: obusorezekiel/react-js:v3
         resources:
           requests:
-            memory: "256Mi"
+            memory: "512Mi"
             cpu: "500m"
           limits:
-            memory: "356Mi"
+            memory: "1Gi"
             cpu: "700m"
         ports:
         - containerPort: 3000
